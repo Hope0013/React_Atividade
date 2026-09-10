@@ -1,0 +1,11 @@
+.resumo-loja {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  color: var(--cor-texto-suave);
+  margin-bottom: 24px;
+}
+
+.resumo-loja strong {
+  color: var(--cor-texto);
+}

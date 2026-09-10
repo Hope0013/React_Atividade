@@ -1,0 +1,63 @@
+.formulario-produto {
+  background-color: var(--cor-superficie);
+  border: 1px solid var(--cor-borda);
+  border-radius: var(--raio-card);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 32px;
+}
+
+.formulario-linha {
+  display: flex;
+  gap: 14px;
+}
+
+.formulario-linha .formulario-campo {
+  flex: 1;
+}
+
+.formulario-campo {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.formulario-campo label {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.formulario-campo input,
+.formulario-campo select,
+.formulario-campo textarea {
+  padding: 10px;
+  border: 1px solid var(--cor-borda);
+  border-radius: var(--raio-botao);
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
+  resize: vertical;
+}
+
+.formulario-erro {
+  color: var(--cor-oferta);
+  font-size: 0.85rem;
+}
+
+.formulario-acoes {
+  display: flex;
+  gap: 12px;
+  margin-top: 6px;
+}
+
+/* Em telas menores, os dois campos da linha (preço e categoria) empilham */
+@media (max-width: 560px) {
+  .formulario-linha {
+    flex-direction: column;
+  }
+
+  .formulario-acoes {
+    flex-direction: column;
+  }
+}

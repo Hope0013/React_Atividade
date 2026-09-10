@@ -1,0 +1,39 @@
+.banner {
+  background-color: var(--cor-primaria);
+  color: var(--cor-superficie);
+  border-radius: var(--raio-card);
+  padding: 56px 40px;
+  margin-bottom: 40px;
+}
+
+.banner h1 {
+  font-size: 2.4rem;
+  color: var(--cor-superficie);
+  margin-bottom: 12px;
+}
+
+.banner p {
+  max-width: 460px;
+  color: rgba(255, 255, 255, 0.85);
+  margin-bottom: 20px;
+}
+
+.banner-botao {
+  background-color: var(--cor-destaque);
+  color: var(--cor-texto);
+  display: inline-block;
+}
+
+.secao-titulo {
+  margin-bottom: 16px;
+}
+
+@media (max-width: 560px) {
+  .banner {
+    padding: 36px 20px;
+  }
+
+  .banner h1 {
+    font-size: 1.9rem;
+  }
+}

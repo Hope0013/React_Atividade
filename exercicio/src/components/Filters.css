@@ -1,0 +1,32 @@
+.filtros {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  background-color: var(--cor-superficie);
+  border: 1px solid var(--cor-borda);
+  border-radius: var(--raio-card);
+  padding: 16px;
+  margin-bottom: 24px;
+}
+
+.filtros-campo {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  flex: 1;
+  min-width: 160px;
+}
+
+.filtros-campo label {
+  font-size: 0.85rem;
+  color: var(--cor-texto-suave);
+}
+
+.filtros-campo input,
+.filtros-campo select {
+  padding: 9px 10px;
+  border: 1px solid var(--cor-borda);
+  border-radius: var(--raio-botao);
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
+}
