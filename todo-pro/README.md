@@ -20,4 +20,5 @@ Aplicação web simples e funcional para gerenciamento de tarefas diárias, dese
    ```bash
    npm install
 3. Rode o programa com:
-   ```npm run dev
+   ```bash
+   npm run dev
